@@ -13,6 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Include packages
+use Dexperts\Authentication\Auth;
+
+// Root uri
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [
+        'name' => 'Laravel'
+    ]);
+});
+
+// Example: url/auth/Stef
+Route::get('/auth/{name}', function($sName) {
+    $oAuth = new Auth();
+    return view('welcome', [
+        'name' => $oAuth->call($sName)
+    ]);
 });
