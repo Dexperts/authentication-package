@@ -1,6 +1,6 @@
 {
     "name": "dexperts/authentication",
-    "description": "This pacakge will contain all authentication logic and functionality.",
+    "description": "This package will contain all authentication logic and functionality.",
     "type": "project",
     "license": "MIT",
     "authors": [
