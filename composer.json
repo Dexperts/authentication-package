@@ -1,18 +1,17 @@
 {
     "name": "dexperts/authentication",
-    "description": "This is a package with all the authentication logic and events.",
-    "license": "MIT",
+    "description": "This pacakge will contain all authentication logic and functionality.",
     "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "RoelDexperts",
             "email": "roel@dexperts.nl"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Dexperts\\Authentication\\": "src/"
+            "Auth\\": "src/"
         }
     },
     "require": {}
