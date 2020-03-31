@@ -14,5 +14,6 @@
             "Auth\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "require": {}
 }
